@@ -43,7 +43,7 @@ use PLL. and Also used in clock data recovery data[1].
 
 
 
-## Reference Circuit Diagram:
+## Reference Block Diagram:
 ![image](https://user-images.githubusercontent.com/98162318/194290687-d9e50c83-46c3-4ad8-ba10-e40014f2dcd3.png)
 
 
