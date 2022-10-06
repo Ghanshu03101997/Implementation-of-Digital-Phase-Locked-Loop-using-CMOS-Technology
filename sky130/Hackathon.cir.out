@@ -1,0 +1,61 @@
+* c:\users\lenovo\onedrive\desktop\phase_locked_loop\hackathon\hackathon.cir
+
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" 
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+xsc7 net-_sc10-pad2_ net-_sc5-pad1_ net-_sc5-pad3_ net-_sc5-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc8 net-_sc10-pad2_ net-_sc1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc9 net-_sc10-pad1_ net-_sc10-pad2_ net-_sc5-pad3_ net-_sc5-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc10 net-_sc10-pad1_ net-_sc10-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc13 net-_sc13-pad1_ net-_sc11-pad1_ net-_sc11-pad3_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc15 net-_sc14-pad1_ out net-_sc15-pad3_ gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc14 net-_sc14-pad1_ out net-_sc13-pad1_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc16 net-_sc15-pad3_ net-_sc12-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc17 net-_sc17-pad1_ net-_sc11-pad1_ net-_sc11-pad3_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc18 net-_sc18-pad1_ net-_sc14-pad1_ net-_sc17-pad1_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc19 net-_sc18-pad1_ net-_sc14-pad1_ net-_sc19-pad3_ gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc20 net-_sc19-pad3_ net-_sc12-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc24 net-_sc23-pad3_ net-_sc12-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc23 net-_sc22-pad1_ net-_sc18-pad1_ net-_sc23-pad3_ gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc22 net-_sc22-pad1_ net-_sc18-pad1_ net-_sc21-pad1_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc21 net-_sc21-pad1_ net-_sc11-pad1_ net-_sc11-pad3_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc25 net-_sc25-pad1_ net-_sc11-pad1_ net-_sc11-pad3_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc26 net-_sc26-pad1_ net-_sc26-pad2_ net-_sc25-pad1_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc27 net-_sc26-pad1_ net-_sc26-pad2_ net-_sc27-pad3_ gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc28 net-_sc27-pad3_ net-_sc12-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc32 net-_sc31-pad3_ net-_sc12-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc31 out net-_sc26-pad1_ net-_sc31-pad3_ gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc30 out net-_sc26-pad1_ ? net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc29 ? net-_sc11-pad1_ net-_sc11-pad3_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc11 net-_sc11-pad1_ net-_sc11-pad1_ net-_sc11-pad3_ net-_sc11-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc12 net-_sc11-pad1_ net-_sc12-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+v2 net-_sc5-pad3_ gnd  dc 1
+v1  net-_sc3-pad2_ gnd pulse(0 1 1m 1m 1m 1n 2n)
+* s c m o d e
+xsc34 net-_sc12-pad2_ gnd 10p 
+xsc33 net-_sc10-pad1_ net-_sc12-pad2_ 300k 
+xsc37 net-_sc37-pad1_ net-_sc37-pad2_ net-_sc35-pad2_ ? sky130_fd_pr__pfet_01v8_lvt 
+xsc38 net-_sc37-pad1_ net-_sc37-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc36 ? ? ? net-_sc35-pad1_ sky130_fd_pr__pfet_01v8_lvt 
+xsc35 net-_sc35-pad1_ net-_sc35-pad2_ gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+xsc3 net-_sc3-pad1_ net-_sc3-pad2_ out net-_sc1-pad4_ sky130_fd_pr__pfet_01v8_lvt 
+xsc4 net-_sc3-pad1_ net-_sc3-pad2_ net-_sc2-pad3_ net-_sc2-pad3_ sky130_fd_pr__nfet_01v8_lvt 
+xsc1 net-_sc1-pad1_ out ? net-_sc1-pad4_ sky130_fd_pr__pfet_01v8_lvt 
+xsc2 net-_sc1-pad1_ out net-_sc2-pad3_ net-_sc2-pad3_ sky130_fd_pr__nfet_01v8_lvt 
+v3 net-_sc1-pad4_ gnd  dc 1
+v4 ? gnd  dc 1
+xsc5 net-_sc5-pad1_ ? net-_sc5-pad3_ net-_sc5-pad3_ sky130_fd_pr__pfet_01v8_lvt 
+xsc6 net-_sc5-pad1_ ? gnd gnd sky130_fd_pr__nfet_01v8_lvt 
+.tran 0.01e-09 10e-09 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
