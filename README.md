@@ -88,7 +88,8 @@ https://www.veripool.org/verilator/
 
 
 ## Waveforms
-![new schmitt trigger1](https://user-images.githubusercontent.com/98162318/157637097-dde9f98d-50bb-4296-8b8d-d6c7af7f9b61.png)
+
+![PLL_Output](https://user-images.githubusercontent.com/98162318/194319677-8d7006bc-11ed-44cb-b077-9427186ef2ac.png)
 
 
 
