@@ -105,10 +105,5 @@ Phase Locked Loop using CMOS Technology."
 Electrical, Computing, Communication and
 Sustainable Technologies (ICAECT). IEEE,
 2021.
-[1] Filanovsky, I. M., and H. Baltes. "CMOS Schmitt trigger design." IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications 41.1 (1994): 46-49.
-[2] Akhter, Nargis, and Md Tawfiq Amin. "An
-area efficient low power Phase-Frequency
-Detector for PLL Applications." 2020 2nd
-International Conference on Advanced
-Information and Communication Technology
-(ICAICT). IEEE, 2020
+
+[2] Akhter, Nargis, and Md Tawfiq Amin. "An area efficient low power Phase-Frequency Detector for PLL Applications." 2020 2nd International Conference on Advanced Information and Communication Technology (ICAICT). IEEE, 2020
